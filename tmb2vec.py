@@ -12,6 +12,7 @@ random.seed(2016)
 sampleNum = 10
 
 def completeTrajectories():
+    ################################################################
     simTrjss = cPickle.load(open('./simulated_data/sim_trajectories'))
     simTrjComps = []
     for simTrjs in simTrjss:
