@@ -14,7 +14,7 @@ sampleNum = 10
 def completeTrajectories():
     ################################################################
     # simTrjss = cPickle.load(open('./simulated_data/sim_trajectories'))
-    simTrjss = cPickle.load(open('./sim_trajectories_from_cleaned'))
+    simTrjss = cPickle.load(open('./sim_trajectories_from_cleaned.pkl', 'rb'))
     simTrjComps = []
     for simTrjs in simTrjss:
         trjsCom = []
